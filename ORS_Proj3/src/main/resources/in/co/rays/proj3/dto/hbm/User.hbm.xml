@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="UserDTO" table="ST_USER">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="firstname"  column="FIRST_NAME" />
+<property name="lastname" column="LAST_NAME" />
+<property name="login"  column="LOGIN" />
+<property name="password"  column="PASSWORD" />
+<property name="dob"  column="DOB" />
+<property name="mobileno"  column="MOBILE_NO" />
+<property name="roleid"  column="ROLE_ID" />
+<property name="unsucessfulLogin"  column="UNSUCCESSFUL_LOGIN" />
+<property name="gender"  column="GENDER" />
+<property name="lastLogin"  column="LAST_LOGIN" />
+<property name="lock"  column="USER_LOCK" />
+<property name="registeredIP"  column="REGISTERED_IP" />
+<property name="lastLoginIP"  column="LAST_LOGINIP" />
+</class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="CollegeDTO" table="ST_COLLEGE">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="name"  column="NAME" />
+<property name="address" column="ADDRESS" />
+<property name="state"  column="STATE" />
+<property name="city"  column="CITY" />
+<property name="phoneno"  column="PHONE_NO" />
+</class>
+</hibernate-mapping>

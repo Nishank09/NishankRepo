@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="SubjectDTO" table="ST_SUBJECT">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="courseId"  column="COURSE_ID" />
+<property name="courseName"  column="COURSE_NAME" />
+<property name="Subjectname" column="SUBJECT_NAME" />
+<property name="description" column="DESCRIPTION" />
+
+</class>
+</hibernate-mapping>

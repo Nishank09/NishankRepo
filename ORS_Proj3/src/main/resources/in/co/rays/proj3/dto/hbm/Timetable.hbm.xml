@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="TimetableDTO" table="ST_TIMETABLE">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="courseid"  column="COURSE_ID" />
+<property name="coursename"  column="COURSE_NAME" />
+<property name="semester" column="SEMESTER" />
+<property name="subjectid"  column="SUBJECT_ID" />
+<property name="subjectname"  column="SUBJECT_NAME" />
+<property name="examdate"  column="EXAMDATE" />
+<property name="examtime"  column="EXAMTIME" />
+<property name="discription"  column="DESCRIPTION" />
+
+
+</class>
+</hibernate-mapping>

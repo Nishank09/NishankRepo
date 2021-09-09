@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="RoleDTO" table="ST_ROLE">
+<id name="id" column="ID"><generator class="increment" /></id>
+<property name="name" column="NAME" />
+<property name="discription" column="DESCRIPTION" />
+<property name="createdBy" column="CREATED_BY" />
+<property name="modifiedBy" column="MODIFIED_BY" />
+<property name="createdDateTime" column ="CREATED_DATETIME"/>
+<property name="modifiedDateTime" column ="MODIFIED_DATETIME"/>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="MarksheetDTO" table="ST_MARKSHEET">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="rollno"  column="ROLL_NO" />
+<property name="studentid" column="STUDENT_ID" />
+<property name="name"  column="NAME" />
+<property name="physics"  column="PHYSICS" />
+<property name="chemistry"  column="CHEMISTRY" />
+<property name="math"  column="MATHS" />
+</class>
+</hibernate-mapping>

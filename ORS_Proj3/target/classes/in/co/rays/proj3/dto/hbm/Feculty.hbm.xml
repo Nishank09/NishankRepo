@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping package="in.co.rays.proj3.dto">
+<class name="FecultyDTO" table="ST_FACULTY">
+<id name="id"  column="ID"> <generator class="increment" />
+</id>
+
+
+
+<property name="courseId"  column="COURSE_ID" />
+<property name="courseName"  column="COURSE_NAME" />
+<property name="subjectId" column="SUBJECT_ID" />
+<property name="subjectName" column="SUBJECT_NAME" />
+<property name="collegeId"  column="COLLEGE_ID" />
+<property name="collegeName"  column="COLLEGE_NAME" />
+<property name="firstName"  column="FIRST_NAME" />
+<property name="lastName"  column="LAST_NAME" />
+<property name="dob"  column="DOB" />
+<property name="email"  column="EMAIL_ID" />
+<property name="mobileNo"  column="MOBILE_NO" />
+<property name="gender"  column="GENDER" />
+<property name="joiningdate"  column="JOINING_DATE" />
+<property name="qualification"  column="QUALIFICATION" />
+
+</class>
+</hibernate-mapping>
